@@ -1,0 +1,13 @@
+{
+  "supports": {},
+  "dependencies": {
+    "PCLStorage": "1.0.2",
+    "NETStandard.Library": "1.6.0",
+    "System.Dynamic.Runtime": "4.3.0"
+  },
+  "frameworks": {
+    "netstandard1.1": {
+      "imports": "portable-win+net45+wp8+win81+wpa8"
+    }
+  }
+}
