@@ -613,7 +613,7 @@ namespace Parse {
         .Unwrap();
     }
 
-    internal static void RegisterProvider(IParseAuthenticationProvider provider) {
+    public static void RegisterProvider(IParseAuthenticationProvider provider) {
       authProviders[provider.AuthType] = provider;
       var curUser = ParseUser.CurrentUser;
       if (curUser != null) {
